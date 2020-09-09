@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react';
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Auxi';
 import Burger from '../../components/Burger/Burger';
 
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
@@ -91,6 +91,7 @@ class BurgerBuilder extends Component {
         {
             console.log("Wokring")
             this.setState({purchasing:true})
+            console.log(this.state.purchasing)
             
         }
         render () {
